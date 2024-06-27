@@ -3,12 +3,10 @@
     <title>TWA</title>
     <meta charset="UTF-8">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-</head>
-<body>
     <script>
         Telegram.Webapp.ready();
-        window.Telegram.WebApp.showAlert('Hello world!');
-        Telegram.Webapp.enableClosingConfirmation();
     </script>
+</head>
+<body onload="window.Telegram.WebApp.showAlert('Hello world!')">
 </body>
 </html>
